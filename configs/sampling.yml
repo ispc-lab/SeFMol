@@ -1,0 +1,17 @@
+
+sample:
+  seed: 2021
+  num_samples: 100
+  num_diffusion_timesteps: 1000
+  pos_only: False
+  center_pos_mode: protein
+  sample_num_atoms: prior
+
+
+data:
+  name: pl
+  path: ./data/crossdocked_v1.1_rmsd1.0_pocket10
+  split: ./data/crossdocked_pocket10_pose_split.pt
+  transform:
+    ligand_atom_mode: add_aromatic
+    random_rot: False
