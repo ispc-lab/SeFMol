@@ -20,6 +20,15 @@ pip install biopython==1.83
 
 ```
 
+## Data
+The data used for training / evaluating the model are organized in the [data](https://drive.google.com/drive/folders/1j21cc7-97TedKh_El5E34yI8o5ckI7eK?usp=share_link) Google Drive folder.
+
+To train the model from scratch, you need to download the preprocessed lmdb file and split file:
+* `crossdocked_v1.1_rmsd1.0_pocket10_processed_final.lmdb`
+* `crossdocked_pocket10_pose_split.pt`
+
+To evaluate the model on the test set, you need to download _and_ unzip the `test_set.zip`. It includes the original PDB files that will be used in Vina Docking.
+
 ## Training
 Ridid pre-training:
 ```
