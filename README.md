@@ -1,11 +1,11 @@
 # SeFMol
-The official repository of our paper "Steering Semi-flexible Molecular Diffusion Model for Structure-Based Drug Design with Reinforcement Learning". 
-
-:boom: In addition to providing code for training and inference of SeFMol, we also offer a user-friendly visualization interface. Once the paper is accepted, we will release the complete platform.
+:boom: The official repository of our paper "Steering Semi-flexible Molecular Diffusion Model for Structure-Based Drug Design with Reinforcement Learning". 
 
 ## Platform
+In addition to providing code for training and inference of SeFMol, we also offer a user-friendly visualization interface. Once the paper is accepted, we will release the complete platform.
+
 <p align="center">
-  <img width="700" src="figs/web.jpg" /> 
+  <img width="700" src="figs/platfom.png" /> 
 </p>
 
 ## Prerequisites
