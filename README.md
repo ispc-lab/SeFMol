@@ -5,7 +5,7 @@
 In addition to providing code for training and inference of SeFMol, we also offer a user-friendly visualization interface. Once the paper is accepted, we will release the complete platform.
 
 <p align="center">
-  <img width="700" src="figs/platfom.png" /> 
+  <img width="700" src="figs/platform.png" /> 
 </p>
 
 ## Prerequisites
