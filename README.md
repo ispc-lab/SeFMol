@@ -36,12 +36,12 @@ To train the model from scratch, you need to download the preprocessed lmdb file
 To evaluate the model on the test set, you need to download _and_ unzip the `test_set.zip`. It includes the original PDB files that will be used in Vina Docking.
 
 ## Training
-Ridid pre-training:
+Rigid pre-training:
 ```
 python train_rigid_pt.py  
 ```
 
-Ridid finetuing:
+Rigid finetuning:
 ```
 python train_rigid_ft.py
 ```
