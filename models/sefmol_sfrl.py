@@ -956,7 +956,7 @@ class SeFMol(nn.Module):
                 pos_log_variance = extract(self.posterior_logvar, t, batch_ligand)  
                 nonzero_mask = (1 - (t == 0).float())[batch_ligand].unsqueeze(-1)    
                 ligand_pos_next, log_prob_pos = cal_log_ligand_pos(pos_model_mean, pos_log_variance, batch_ligand, ligand_pos, num_graphs, nonzero_mask=nonzero_mask)
-                ligand_pos = ligand_pos_next
+                ligand_pos = ligand_pos_next     # update pos
                 
                 # org ligand v
                 log_ligand_v_recon = F.log_softmax(v0_from_e, dim=-1)
