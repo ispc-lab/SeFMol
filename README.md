@@ -3,7 +3,7 @@
 
 Official repository for the paper "Steering Semi-flexible Molecular Diffusion Model for Structure-Based Drug Design with Reinforcement Learning". SeFMol achieves state-of-the-art performance in generating high-affinity drug molecules by combining semi-flexible molecular modeling with reinforcement learning.
 
-![Platform Visualization](figs/platform.png)
+![Platform Visualization](figs/SeFMol.png)
 
 ## Key Features
 - 🧠 **Two-Stage Rigid Training**: Combines property-biased pretraining on Molecule3D dataset with target-aware fine-tuning on protein-ligand pairs
