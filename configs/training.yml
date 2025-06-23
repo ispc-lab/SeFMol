@@ -49,7 +49,7 @@ model:
   x2h_out_fc: False
   sync_twoup: False
 
-  condition_dim: 4  # qed, sa, logp, lipskin
+  condition_dim: 8
   condition_hidden_dim: 16
 
 train:
