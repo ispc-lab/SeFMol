@@ -169,11 +169,25 @@ class FeaturizeLigandAtom(object):
             ligand_path = os.path.join(self.ligand_path, data.ligand_filename)
             mol = Chem.MolFromMolFile(ligand_path)
             chem_results = get_chem(mol)
-            data.properties = torch.tensor([chem_results['qed'], chem_results['sa'], chem_results['logp'], chem_results['lipinski']])
+            # data.properties = torch.tensor([chem_results['qed'], chem_results['sa'], chem_results['logp'], chem_results['lipinski']])
+            data.properties = torch.tensor([chem_results['qed'], chem_results['sa'], chem_results['logp'], 
+                                        chem_results['tpsa'], chem_results['hba'], 
+                                        chem_results['hbd'], chem_results['fsp3'], chem_results['rotb']])
+            # data.properties = torch.tensor([chem_results['qed'], chem_results['sa'], chem_results['logp'], chem_results['lipinski'],
+            #                             chem_results['tpsa'], chem_results['fsp3']])
         else:
-            # del lipinski
-            del data.properties[5]
-         
+            # qed, sa, logp, tpsa, hba, lip, hbd, fsp3, rotb
+            # print(data.properties)
+            del data.properties[8]  # del rotb
+            del data.properties[7]  # del logp
+            del data.properties[6]  # del HBA
+            del data.properties[4]  # del lipinski
+            del data.properties[3]  # del lipinski
+            del data.properties[2]  # del lipinski
+            # print(data.properties)
+            
+            # qed_sa_logp_lip_tpsa_f3p3
+        
         element_list = data.ligand_element
         hybridization_list = data.ligand_hybridization
         aromatic_list = [v[AROMATIC_FEAT_MAP_IDX] for v in data.ligand_atom_feature]
