@@ -21,7 +21,7 @@ model:
   time_emb_mode: simple
   center_pos_mode: protein
 
-  condition_dim: 8  # qed, sa, logp, lipskin
+  condition_dim: 8 
   condition_hidden_dim: 16
 
   node_indicator: True
