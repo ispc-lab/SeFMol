@@ -106,9 +106,9 @@ python sample.py \
   --config configs/rl.yml \
   --start_index 0 \
   --end_index 99 \
-  --timesteps 50  # Recommended value (10-1000 range)
+  --timesteps 50 
 ```
-### `--timesteps` Argument
+#### `--timesteps` Argument
 
 | Property        | Value                          |
 |-----------------|--------------------------------|
