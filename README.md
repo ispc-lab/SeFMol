@@ -100,21 +100,22 @@ python train_rigid_ft.py
 python train_sfrl.py
 ```
 
+## Sampling
+```bash
 python sample.py \
   --config configs/rl.yml \
   --start_index 0 \
   --end_index 99 \
-  --timesteps 50  # 🚀 Recommended value (10-1000 range)
+  --timesteps 50  # Recommended value (10-1000 range)
+```
+### `--timesteps` Argument
 
-  --timesteps Argument:
+| Property        | Value                          |
+|-----------------|--------------------------------|
+| **Range**       | `10` to `1000` (controls diffusion steps) |
+| **Recommendation** | `50` (optimal speed/quality balance) |
+| **Performance** | ⚡ **20x faster** than default (1000 steps)<br>✅ **No detectable quality loss** |
 
-Range: 10 to 1000 (controls diffusion steps)
-
-Recommendation: 50 (optimal balance of speed/quality)
-
-Performance:
-⚡ 20x faster than default settings (e.g., 1000 steps)
-✅ No detectable quality loss in generated molecules
 
 ## Evaluation
 Evaluate generated molecules:
