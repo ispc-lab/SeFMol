@@ -45,9 +45,13 @@ We're developing a comprehensive platform for molecular design and visualization
   <img width="700" src="figs/platform_1.png" alt="SeFMol Platform Preview"/> 
 </p>
 
+---
+
 <p align="center">
   <img width="700" src="figs/platform_2.png" alt="SeFMol Platform Preview"/> 
 </p>
+
+---
 
 <p align="center">
   <img width="700" src="figs/platform_3.png" alt="SeFMol Platform Preview"/> 
