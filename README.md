@@ -18,7 +18,7 @@ Official repository for the paper "Steering Semi-flexible Molecular Diffusion Mo
 
 - 📊 **Sparse Reward Solution**: Addresses sparse affinity signals through property-conditioned reinforcement learning
 
-- 💻 **User-friendly Platform**: Integrated visualization interface (coming soon!)
+- 💻 **User-friendly Platform**: Integrated visualization interface
 
 
 ## Performance Comparison
@@ -42,7 +42,15 @@ SeFMol outperforms existing methods on key molecular metrics:
 We're developing a comprehensive platform for molecular design and visualization. The complete platform will be released upon paper acceptance.
 
 <p align="center">
-  <img width="700" src="figs/platform.png" alt="SeFMol Platform Preview"/> 
+  <img width="700" src="figs/platform_1.png" alt="SeFMol Platform Preview"/> 
+</p>
+
+<p align="center">
+  <img width="700" src="figs/platform_2.png" alt="SeFMol Platform Preview"/> 
+</p>
+
+<p align="center">
+  <img width="700" src="figs/platform_3.png" alt="SeFMol Platform Preview"/> 
 </p>
 
 ## Installation
