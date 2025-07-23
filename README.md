@@ -95,7 +95,7 @@ Download required datasets from [Google Drive folder](https://drive.google.com/d
 **For evaluation:**
 - `test_set.zip` (unzip before use)
 
-## Training Workflow
+## Training
 
 ### 1. Rigid Pre-training
 ```bash
