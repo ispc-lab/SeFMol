@@ -86,7 +86,7 @@ pip install biopython==1.83
 ```
 
 ## Data Preparation
-Download required datasets from our [Google Drive folder](https://drive.google.com/drive/folders/1j21cc7-97TedKh_El5E34yI8o5ckI7eK?usp=share_link):
+Download required datasets from [Google Drive folder](https://drive.google.com/drive/folders/1j21cc7-97TedKh_El5E34yI8o5ckI7eK?usp=share_link):
 
 **For training:**
 - `crossdocked_v1.1_rmsd1.0_pocket10_processed_final.lmdb`
