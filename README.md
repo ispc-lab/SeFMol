@@ -77,12 +77,20 @@ conda install pytorch==1.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
 # Install molecular modeling dependencies
 conda install -c conda-forge pdbfixer
 conda install conda-forge::openbabel
+conda install pyyaml easydict python-lmdb -c conda-forge
 
 # Install Python packages
 pip install protobuf==5.27.1
 pip install networkx==3.2.1
 pip install rdkit==2023.9.6
 pip install biopython==1.83
+
+# For Vina Docking
+pip install meeko==0.1.dev3 scipy pdb2pqr vina==1.2.2 
+python -m pip install git+https://github.com/Valdes-Tresanco-MS/AutoDockTools_py3
+
+# For EDeN
+pip install git+https://github.com/fabriziocosta/EDeN.git --user
 ```
 
 ## Data Preparation
