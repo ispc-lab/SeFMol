@@ -149,7 +149,7 @@ python eval_split_diff.py
 - Tutorial notebooks
 - Docker image for easy deployment
 
-# Citation
+## Citation
 Our paper is under review, if you find our code helpful, please cite 
 
 ```bibtex
