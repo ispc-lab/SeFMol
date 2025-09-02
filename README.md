@@ -148,3 +148,18 @@ python eval_split_diff.py
 - Pre-trained model weights
 - Tutorial notebooks
 - Docker image for easy deployment
+
+# Citation
+Our paper is under review, if you find our code helpful, please cite 
+
+```bibtex
+@misc{SeFMol2025,
+title = {Steering Semi-flexible Molecular Diffusion Model for Structure-Based Drug Design with Reinforcement Learning},
+author = {Zhang, Xudong and Qu, Sanqing and Lu, Fan and Wang, Jianmin and Tian, Zhixin and Gu, Shangding and Zhang, Yanping and Knoll, Alois and Gao, Shaorong and Chen, Guang and Jiang, Changjun},
+year = {2025},
+publisher = {GitHub},
+journal = {GitHub repository},
+howpublished = {\url{https://github.com/ispc-lab/SeFMol}},
+}
+
+```
