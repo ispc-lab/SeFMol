@@ -134,7 +134,7 @@ python sample.py \
 |-----------------|--------------------------------|
 | **Range**       | `10` to `1000` (controls diffusion steps) |
 | **Recommendation** | `50` (optimal speed/quality balance) |
-| **Performance** | ⚡ **20x faster** than default (1000 steps)<br>✅ **No detectable quality loss** |
+| **Performance** | **20x faster** than default (1000 steps)<br> **No detectable quality loss** |
 
 
 ## Evaluation
