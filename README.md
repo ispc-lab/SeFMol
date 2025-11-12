@@ -10,15 +10,15 @@ Official repository for the paper "Steering Semi-flexible Molecular Diffusion Mo
 
 
 ## Key Features
-- 🧠 **Two-Stage Rigid Training**: Combines property-biased pretraining on Molecule3D dataset with target-aware fine-tuning on protein-ligand pairs
+- **Two-Stage Rigid Training**: Combines property-biased pretraining on Molecule3D dataset with target-aware fine-tuning on protein-ligand pairs
 
-- 🤖 **RL-Optimized Semi-Flexibility**: Models denoising as Markov decision process with KL-constrained policy network for semi-flexible conformation exploration
+- **RL-Optimized Semi-Flexibility**: Models denoising as Markov decision process with KL-constrained policy network for semi-flexible conformation exploration
 
-- ⏩ **20x Faster Sampling**: Revolutionary fast training-free sampling strategy reducing steps to 1/20th of conventional diffusion models
+- **20x Faster Sampling**: Revolutionary fast training-free sampling strategy reducing steps to 1/20th of conventional diffusion models
 
-- 📊 **Sparse Reward Solution**: Addresses sparse affinity signals through property-conditioned reinforcement learning
+- **Sparse Reward Solution**: Addresses sparse affinity signals through property-conditioned reinforcement learning
 
-- 💻 **User-friendly Platform**: Integrated visualization interface
+- **User-friendly Platform**: Integrated visualization interface
 
 
 ## Performance Comparison
