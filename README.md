@@ -21,22 +21,6 @@ Official repository for the paper "Steering Semi-flexible Molecular Diffusion Mo
 - **User-friendly Platform**: Integrated visualization interface
 
 
-## Performance Comparison
-SeFMol outperforms existing methods on key molecular metrics:
-
-| Method       | Vina Score (↓) |       | Vina Min (↓) |       | Vina Dock (↓) |       | High Affinity (↑) |       | QED (↑) |       | SA (↑) |       | Lipinski (↑) | Diversity (↑) |
-|--------------|----------------|-------|--------------|-------|---------------|-------|-------------------|-------|---------|-------|--------|-------|--------------|---------------|
-|              | Avg.           | Med.  | Avg.         | Med.  | Avg.          | Med.  | Avg.              | Med.  | Avg.    | Med.  | Avg.   | Med.  | Avg.         |               |
-| Reference    | -6.36          | -6.46 | -6.71        | -6.49 | -7.45         | -7.26 | -                 | -     | 0.48    | 0.47  | 0.73   | 0.74  | 4.27         | -             |
-| AR           | -5.75          | -5.64 | -6.18        | -5.88 | -6.75         | -6.62 | 37.9%             | 31.0% | 0.51    | 0.50  | 0.63   | 0.63  | 4.75         | 0.690         |
-| Pocket2Mol   | -5.14          | -4.70 | -6.42        | -5.82 | -7.15         | -6.79 | 48.4%             | 51.0% | 0.56    | 0.57  | 0.74   | 0.75  | 4.88         | 0.685         |
-| ResGen       | 10.50          | 2.54  | -2.94        | -4.41 | -6.59         | -6.45 | 38.0%             | 25.0% | 0.58    | 0.59  | **0.78** | **0.79** | 4.90         | 0.742         |
-| FLAG         | 45.98          | 36.62 | 6.17         | -2.91 | -5.24         | -5.71 | 27.9%             | 5.0%  | 0.61    | 0.62  | 0.63   | 0.62  | **4.98**     | **0.766**     |
-| TargetDiff   | -5.47          | -6.30 | -6.64        | -6.83 | -7.80         | -7.91 | 58.1%             | 59.1% | 0.48    | 0.48  | 0.58   | 0.58  | 4.51         | 0.708         |
-| DecompDiff   | -5.67          | -6.04 | -7.04        | -6.91 | -8.39         | -8.43 | 64.4%             | 71.0% | 0.45    | 0.43  | 0.61   | 0.60  | 4.31         | 0.660         |
-| MolCRAFT     | -6.59          | -7.04 | -7.27        | -7.26 | -7.92         | -8.01 | 59.1%             | 62.6% | 0.50    | 0.51  | 0.69   | 0.68  | 4.46         | 0.718         |
-| IPDiff       | -6.66          | -7.47 | -7.64        | -7.69 | -8.49         | -8.39 | 68.5%             | 72.2% | 0.50    | 0.51  | 0.56   | 0.56  | 4.40         | 0.728         |
-| **SeFMol**   | **-7.23**      | **-7.70** | **-8.03**    | **-8.00** | **-8.72**     | **-8.75** | **68.7%**         | **76.3%** | **0.63** | **0.64** | 0.60   | 0.60   | 4.90         | 0.686         |
 
 ## Platform Preview
 We're developing a comprehensive platform for molecular design and visualization. The complete platform will be released upon paper acceptance.
