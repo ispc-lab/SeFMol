@@ -3,9 +3,9 @@
 
 Official repository for the paper "Steering Semi-flexible Molecular Diffusion Model for Structure-Based Drug Design with Reinforcement Learning". 
 
-<div style="text-align: center;">
-    <img src="figs/SeFMol.png" alt="Platform Visualization" width="500"/>
-</div>
+<p align="center">
+  <img src="figs/SeFMol.png" alt="Platform Visualization" width="300"/>
+</p>
 
 ## News 🚩
 - 🌐 **March 2026**: The **SeFMol platform** officially went live, enabling no-code online access to our molecular design tools. Temporary link: [SeFMol Platform](http://220.168.146.21:8351).
