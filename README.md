@@ -4,11 +4,11 @@
 Official repository for the paper "Steering Semi-flexible Molecular Diffusion Model for Structure-Based Drug Design with Reinforcement Learning". 
 
 <div align="center">
-  <img src="figs/SeFMol.png" alt="Platform Visualization" width="400" style="display: block; margin: 0 auto;" />
+  <img src="figs/SeFMol.png" alt="Platform Visualization" width="500" style="display: block; margin: 0 auto;" />
 </div>
 
 ## News 🚩
-- 🌐 **March 2026**: The **SeFMol platform** officially went live, enabling no-code online access to our molecular design tools. Temporary link: [SeFMol Platform](http://220.168.146.21:8351).
+- 🌐 **March 2026**: The **SeFMol platform** officially went live, enabling no-code online access to our molecular design tools. Official website: [www.sefmol.tjai4s.com](https://www.sefmol.tjai4s.com).
 
 - 🏆 **March 2026**: **SeFMol** was accepted by *Science Advances*.
 
@@ -29,7 +29,7 @@ Official repository for the paper "Steering Semi-flexible Molecular Diffusion Mo
 
 
 ## Platform Preview
-The SeFMol web platform is now live for no-code molecular design and visualization workflows. Temporary access: [SeFMol Platform](http://220.168.146.21:8351). The figures below show key interface modules.
+The SeFMol web platform is now live for no-code molecular design and visualization workflows. Official website: [www.sefmol.tjai4s.com](https://www.sefmol.tjai4s.com). The figures below show key interface modules.
 
 <p align="center">
   <img width="700" src="figs/platform_1.png" alt="SeFMol Platform Preview"/> 
