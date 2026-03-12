@@ -7,6 +7,10 @@ Official repository for the paper "Steering Semi-flexible Molecular Diffusion Mo
     <img src="figs/SeFMol.png" alt="Platform Visualization" width="500"/>
 </div>
 
+## News 🚩
+- 🌐 **March 2026**: The **SeFMol platform** officially went live, enabling no-code online access to our molecular design tools. Temporary link: [SeFMol Platform](http://220.168.146.21:8351).
+- 🏆 **March 2026**: **SeFMol** was accepted by *Science Advances*.
+- 🚀 **May 2025**: We released **SeMol**, a tool for rapidly generating high-affinity molecules with desired properties for specific protein pockets.
 
 
 ## Key Features
@@ -23,7 +27,7 @@ Official repository for the paper "Steering Semi-flexible Molecular Diffusion Mo
 
 
 ## Platform Preview
-We're developing a comprehensive platform for molecular design and visualization. The complete platform will be released upon paper acceptance.
+The SeFMol web platform is now live for no-code molecular design and visualization workflows. Temporary access: [SeFMol Platform](http://220.168.146.21:8351). The figures below show key interface modules.
 
 <p align="center">
   <img width="700" src="figs/platform_1.png" alt="SeFMol Platform Preview"/> 
@@ -42,10 +46,6 @@ We're developing a comprehensive platform for molecular design and visualization
 </p>
 
 ## Installation
-
-### Prerequisites
-- Conda package manager
-- NVIDIA GPU (recommended)
 
 ### Create Environment
 ```bash
@@ -78,7 +78,7 @@ pip install git+https://github.com/fabriziocosta/EDeN.git --user
 ```
 
 ## Data Preparation
-Download required datasets from [Google Drive folder](https://drive.google.com/drive/folders/1j21cc7-97TedKh_El5E34yI8o5ckI7eK?usp=share_link):
+Download required datasets from the [Google Drive folder](https://drive.google.com/drive/folders/1j21cc7-97TedKh_El5E34yI8o5ckI7eK?usp=share_link) (original raw data download link):
 
 **For training:**
 - `crossdocked_v1.1_rmsd1.0_pocket10_processed_final.lmdb`
@@ -86,6 +86,11 @@ Download required datasets from [Google Drive folder](https://drive.google.com/d
 
 **For evaluation:**
 - `test_set.zip` (unzip before use)
+
+## Checkpoints and Results Downloads
+- **Pre-trained checkpoint (`ckpt`)**: [https://zenodo.org/records/17790890/files/checkpoint.tar.gz?download=1](https://zenodo.org/records/17790890/files/checkpoint.tar.gz?download=1)
+- **Baseline and model sampling results (including docked results)**: We provide sampling results for **SeFMol**, **AR**, **Pocket2Mol**, **ResGen**, **FLAG**, **TargetDiff**, **DecompDiff**, **MolCRAFT**, and **IPDiff** baselines: [https://zenodo.org/records/17790890/files/eval_results.tar.gz?download=1](https://zenodo.org/records/17790890/files/eval_results.tar.gz?download=1)
+- **Preprocessed data**: [https://zenodo.org/records/17790890/files/data.tar.gz?download=1](https://zenodo.org/records/17790890/files/data.tar.gz?download=1)
 
 ## Training
 
