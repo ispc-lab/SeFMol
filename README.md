@@ -12,7 +12,7 @@ Official repository for the paper "Steering Semi-flexible Molecular Diffusion Mo
 
 - 🏆 **March 2026**: **SeFMol** was accepted by *Science Advances*.
 
-- 🚀 **May 2025**: We released **SeMol**, a tool for rapidly generating high-affinity molecules with desired properties for specific protein pockets.
+- 🚀 **May 2025**: We released **SeFMol**, a tool for rapidly generating high-affinity molecules with desired properties for specific protein pockets.
 
 
 ## Key Features
