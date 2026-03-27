@@ -8,7 +8,7 @@ Official repository for the paper "Steering Semi-flexible Molecular Diffusion Mo
 </div>
 
 ## News 🚩
-- 🌐 **March 2026**: The **[SeFMol platform](http://220.168.146.21:8510/)** officially went live, enabling no-code online access to our molecular design tools.
+- 🌐 **March 2026**: The **[SeFMol platform](www.sefmol.tjai4s.com)** officially went live, enabling no-code online access to our molecular design tools.
 
 - 🏆 **March 2026**: **SeFMol** was accepted by *Science Advances*.
 
