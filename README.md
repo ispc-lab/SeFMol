@@ -8,7 +8,7 @@ Official repository for the paper "Steering Semi-flexible Molecular Diffusion Mo
 </div>
 
 ## News 🚩
-- 🌐 **March 2026**: The **[SeFMol platform](www.sefmol.tjai4s.com)** officially went live, enabling no-code online access to our molecular design tools.
+- 🌐 **March 2026**: The **[SeFMol platform](https://www.sefmol.tjai4s.com/)** officially went live, enabling no-code online access to our molecular design tools.
 
 - 🏆 **March 2026**: **SeFMol** was accepted by *Science Advances*.
 
@@ -29,7 +29,7 @@ Official repository for the paper "Steering Semi-flexible Molecular Diffusion Mo
 
 
 ## Platform Preview
-The [SeFMol web platform](http://220.168.146.21:8510/) is now live for no-code molecular design and visualization workflows. The figures below show key interface modules.
+The [SeFMol web platform](https://www.sefmol.tjai4s.com/) is now live for no-code molecular design and visualization workflows. The figures below show key interface modules.
 
 <p align="center">
   <img width="700" src="figs/platform_1.png" alt="SeFMol Platform Preview"/> 
