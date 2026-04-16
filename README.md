@@ -136,7 +136,7 @@ python eval_split_diff.py
 
 
 ## Citation
-If you find our work helpful, please cite 
+If you find our work helpful, please cite: 
 
 ```bibtex
 @article{zhang2026sefmol,
