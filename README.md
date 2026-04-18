@@ -1,7 +1,7 @@
 # SeFMol: Steering Semi-flexible Molecular Diffusion Model for Structure-Based Drug Design with Reinforcement Learning
 
 
-Official repository for the paper "Steering Semi-flexible Molecular Diffusion Model for Structure-Based Drug Design with Reinforcement Learning". 
+Official repository for the paper "Steering Semi-flexible Molecular Diffusion Model for Structure-Based Drug Design with Reinforcement Learning" ([*Science Advances*](https://www.science.org/doi/10.1126/sciadv.ady9955)).
 
 <div align="center">
   <img src="figs/SeFMol.png" alt="Platform Visualization" width="500" style="display: block; margin: 0 auto;" />
@@ -90,7 +90,7 @@ Download required datasets from the [Google Drive folder](https://drive.google.c
 - `test_set.zip` (unzip before use)
 
 ## Checkpoints and Results Downloads
-- **Pre-trained checkpoint (`ckpt`)**: [https://zenodo.org/records/17790890/files/checkpoint.tar.gz?download=1](https://zenodo.org/records/17790890/files/checkpoint.tar.gz?download=1)
+- **Pre-trained checkpoint**: [https://zenodo.org/records/17790890/files/checkpoint.tar.gz?download=1](https://zenodo.org/records/17790890/files/checkpoint.tar.gz?download=1)
 - **Baseline and model sampling results (including docked results)**: We provide sampling results for **SeFMol**, **AR**, **Pocket2Mol**, **ResGen**, **FLAG**, **TargetDiff**, **DecompDiff**, **MolCRAFT**, and **IPDiff** baselines: [https://zenodo.org/records/17790890/files/eval_results.tar.gz?download=1](https://zenodo.org/records/17790890/files/eval_results.tar.gz?download=1)
 - **Preprocessed data**: [https://zenodo.org/records/17790890/files/data.tar.gz?download=1](https://zenodo.org/records/17790890/files/data.tar.gz?download=1)
 
