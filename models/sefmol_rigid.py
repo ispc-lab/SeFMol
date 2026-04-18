@@ -1,7 +1,3 @@
-"""
- 使用molecule3D进行预训练，且以分子性质为条件的预训练模型
-"""
-
 import numpy as np
 import torch
 import torch.nn as nn

@@ -909,7 +909,7 @@ class SeFMol(nn.Module):
                 'pred_pos_noise': pred_pos_noise, 
                 'log_prob': log_prob}
             
-        elif log_prob_mode == 'rl_sample':
+        elif log_prob_mode == 'sefmol_sample':
             protein_pos, init_ligand_pos, offset = center_pos(
             protein_pos, init_ligand_pos, batch_protein, batch_ligand, mode=center_pos_mode)
             

@@ -8,8 +8,8 @@ data:
 
 molecule3d_data:
   name: ligand
-  path: /DATA2/east/molecule3D/molecule3D/
-  split: /DATA2/east/molecule3D/split_molecule3D.pt
+  path: ./data/molecule3D/molecule3D/
+  split: ./data/molecule3D/split_molecule3D.pt
   transform:
     ligand_atom_mode: add_aromatic
     random_rot: False

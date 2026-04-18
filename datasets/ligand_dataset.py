@@ -128,6 +128,6 @@ class LigandDataset(Dataset):
 
 if __name__ == '__main__':
 
-    path = '/DATA2/east/molecule3D/molecule3D/'
+    path = './data/molecule3D/molecule3D/'
     dataset = LigandDataset(path)
     print(len(dataset), dataset[0])

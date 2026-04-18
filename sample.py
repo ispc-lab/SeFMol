@@ -119,7 +119,7 @@ if __name__ == '__main__':
     parser.add_argument('--end_id', type=int, default=99)
     parser.add_argument('--device', type=str, default='cuda:3')
     parser.add_argument('--batch_size', type=int, default=100)
-    parser.add_argument('--sample_mode', type=str, default='rl_sample', choices=['rigid_sample', 'sefmol_sample'])
+    parser.add_argument('--sample_mode', type=str, default='sefmol_sample', choices=['rigid_sample', 'sefmol_sample'])
     parser.add_argument('--timesteps', type=int, default=50)
 
     # ablation: no pretrain
