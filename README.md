@@ -80,7 +80,12 @@ pip install git+https://github.com/fabriziocosta/EDeN.git --user
 ```
 
 ## Data Preparation
-Download required datasets from the [Google Drive folder](https://drive.google.com/drive/folders/1j21cc7-97TedKh_El5E34yI8o5ckI7eK?usp=share_link) (original raw data download link):
+
+We provide data in two forms:
+
+- **Raw data** — obtain the original CrossDocked-derived datasets and related splits following the data preparation instructions in the TargetDiff repository: [https://github.com/guanjq/targetdiff](https://github.com/guanjq/targetdiff).
+
+- **Preprocessed training pack** — LMDB and split files used for **pre-training** and **fine-tuning**. Download [https://zenodo.org/records/17790890/files/data.tar.gz?download=1](https://zenodo.org/records/17790890/files/data.tar.gz?download=1).
 
 **For training:**
 - `crossdocked_v1.1_rmsd1.0_pocket10_processed_final.lmdb`
@@ -92,7 +97,6 @@ Download required datasets from the [Google Drive folder](https://drive.google.c
 ## Checkpoints and Results Downloads
 - **Pre-trained checkpoint**: [https://zenodo.org/records/17790890/files/checkpoint.tar.gz?download=1](https://zenodo.org/records/17790890/files/checkpoint.tar.gz?download=1)
 - **Baseline and model sampling results (including docked results)**: We provide sampling results for **SeFMol**, **AR**, **Pocket2Mol**, **ResGen**, **FLAG**, **TargetDiff**, **DecompDiff**, **MolCRAFT**, and **IPDiff** baselines: [https://zenodo.org/records/17790890/files/eval_results.tar.gz?download=1](https://zenodo.org/records/17790890/files/eval_results.tar.gz?download=1)
-- **Preprocessed data**: [https://zenodo.org/records/17790890/files/data.tar.gz?download=1](https://zenodo.org/records/17790890/files/data.tar.gz?download=1)
 
 ## Training
 
